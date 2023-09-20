@@ -1,0 +1,97 @@
+label[for=show]{
+    width: 52px;
+    height: 52px;
+    position: fixed;
+    bottom: 12px;
+    left: 40px;
+    z-index: 1;
+}
+
+label[for=show]>div.supportclose{
+    width: 100%;
+    height: 100%;
+    background-color: #f04055;
+    border-radius: 50%;
+    border: unset;
+    cursor: pointer;   
+
+}
+
+label[for=show]>div.supportclose>svg{
+    margin: 16px 14px 0 0;
+}
+
+div.supportopen{
+    width: 360px;
+    height: 463px;
+    border: 1px solid #f04055;
+    border-radius: 16px;
+    position: fixed;
+    bottom: 70px;
+    left: 52px;
+    z-index: 1;
+    overflow: hidden;
+    font-family: yekan;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: none;
+}
+
+div.supportopen>div.title{
+    width: 100%;
+    height: 16%;
+    background-color: #f04055;
+}
+
+div.supportopen>div.chatbox{
+    width: 100%;
+    height: 84%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+div.supportopen>div.chatbox>p{
+    font-size: 16px;
+    color: rgb(24, 24, 24);
+    text-align: right;
+    margin: 6px 6px;
+    font-weight: normal;
+    border: 1px solid rgba(163, 162, 162, 0.445);
+    padding: 30px 12px;
+    border-radius: 8px;  
+}
+
+div.supportopen>div.chatbox>p:nth-of-type(1){
+    border: unset;
+}
+
+div.supportopen>div.chatbox>a{
+    width: 207px;
+    height: 48px;
+    display: block;
+    background-color: #19c0d3;
+    margin: 30px auto 25px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 40px; 
+}
+
+div.supportopen>div.chatbox>a>p{
+    font-size: 16px;
+    margin: 0 ;
+    font-weight: normal;
+    color: white;
+}
+
+#show:checked ~ div.supportopen{
+    display: block;
+}
+
+#close:checked ~ div.supportopen{
+    display: block;
+}
+
+#show{
+    display: none;
+}

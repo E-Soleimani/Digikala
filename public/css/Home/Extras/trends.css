@@ -1,0 +1,91 @@
+div.trends{
+    width: 100%;
+    height: 405px;
+    margin-top: 25px;
+}
+
+div.trends>div.trends-container{
+    width: 70%;
+    height: inherit;
+    margin: 0 auto;
+    font-family: yekan;
+    border: 1px solid rgba(180, 178, 178, 0.678);
+    border-radius: 12px;
+}
+
+div.trends>div.trends-container>div.description{
+    width: 100%;
+    height: 16%;
+    text-align: center;
+}
+
+div.trends>div.trends-container>div.description>div.title{
+    width: 80%;
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+
+div.trends>div.trends-container>div.description>div.title>p{
+    margin-right: 0;
+    font-size: 22px;
+    color: #080b38;
+}
+
+div.trends>div.trends-container>div.description>a>span{
+    color: #19c0d2;
+}
+
+div.trends>div.trends-container>div.products{
+    width: 100%;
+    height: 84%;   
+}
+
+div.trends>div.trends-container>div.products>div.row{
+    width: 100%;
+    height: 33.2%;
+    text-align: center;
+}
+
+div.trends>div.trends-container>div.products>div.row>a>div.card{
+    width: 320px;
+    height: 86px;
+    display: inline-block;
+    margin-top: 12px;
+    vertical-align: middle;
+    position: relative;   
+}
+
+div.trends>div.trends-container>div.products>div.row>a>div.card>div.image{
+    width: 86px;
+    height: inherit;
+    overflow: hidden;
+    margin-right: 0;    
+}
+
+div.trends>div.trends-container>div.products>div.row>a>div.card>div.image>img{
+    width: inherit;
+    height: inherit;    
+}
+
+:is(div.trends>div.trends-container>div.products>div.row>a>div.card) :is(span,p){
+    margin:0;
+    position: absolute;
+    right: 120px;
+    top: calc(50% - 22px / 2)  
+}
+    
+div.trends>div.trends-container>div.products>div.row>a>div.card>span{
+    right: 102px;
+    font-size: 25px;
+    font-weight: bolder;
+    top: 30%;
+    color: #19c0d2;   
+}
+
+div.trends>div.trends-container>div.products>div.row>a>div.card>p{
+    margin-right: 6px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #404064;  
+}

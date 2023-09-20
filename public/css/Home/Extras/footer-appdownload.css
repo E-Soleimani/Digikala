@@ -1,0 +1,57 @@
+div.appdownload{
+    width: 88%;
+    height: 80px;
+    background-color: #3c4a6d;
+    margin: 48px auto;
+    border-radius: 8px;
+}
+
+div.appdownload>div.applogo{
+    width: 60%;
+    display: inline-block;
+}
+
+div.appdownload>div.applogo>img{
+    width: 5%;
+    height: inherit;
+    margin: 16px 25px 0 0;
+    vertical-align: middle;
+}
+
+div.appdownload>div.applogo>span{
+    margin: 8px 36px 0 0;
+    font-family: yekan;
+    font-size: 22px;
+    color: white;
+    
+}
+
+div.appdownload>div.appmarkets{
+    display: inline-block;
+    width:38%;
+    height: inherit;
+    text-align: left;
+}
+
+div.appdownload>div.appmarkets svg{
+    margin: 12px 6px 0 2px;
+
+}
+
+div.appdownload>div.appmarkets>a>div.ellipses{
+    width: 42px;
+    height: 44px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 12px;
+    border-radius: 4px;
+    position: relative;
+}
+
+div.appdownload>div.appmarkets>a>div.ellipses>svg{
+    margin: 0;
+    position: absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}   

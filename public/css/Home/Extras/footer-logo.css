@@ -1,0 +1,33 @@
+div.footer-logo{
+    width: 88%;
+    height: 70px;
+    margin: 60px auto;
+}
+
+div.footer-logo>div.svg{
+    display: inline-block;
+    width: 90%;
+} 
+
+div.footer-logo :is(p,svg,span){
+    margin: 0;
+    color: #6f6f72;
+    font-family: yekan;
+}
+
+div.footer-logo>button{
+    background-color: #fff;
+    border: 1px solid rgba(180, 178, 178, 0.678);
+    padding: 8px 16px;
+    border-radius: 8px;   
+}
+
+div.footer-logo>div.tel{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+div.footer-logo>div.tel>span{
+    margin-right: 8px;
+    color: #343435;
+}

@@ -1,0 +1,71 @@
+div.license{
+    width: 100%;
+    height: 400px;    
+}
+
+div.license>div.license-container{
+    width: 88%;
+    height: inherit;
+    margin: 0 auto;
+    font-family: yekan;
+    border-top: 1px solid rgba(205, 204, 206, 0.274);
+    padding-top: 80px;
+}
+
+div.license>div.license-container>div.description{
+    width: 74%;
+    height: 45%;
+    display: inline-block;
+}
+
+div.license>div.license-container>div.description>h2{
+    color: #5b5c7a;  
+}
+
+div.license>div.license-container>div.description>p{
+    margin: 18px 0;
+    font-size: 12px;
+    color: #767891;
+}
+
+div.license>div.license-container>div.description>span{
+    margin: 18px 0;
+    font-size: 12px;
+    color: #2cc3d6;
+}
+
+div.license>div.license-container>div.license-logos{
+    width: 25%;
+    height: 45%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+div.license>div.license-container>div.license-logos>a>div.image{
+    width: 108px;
+    height: 108px;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    border-radius: 8px;
+    border: 1px solid rgba(212, 216, 216, 0.596);
+}
+
+div.license>div.license-container>div.license-logos>a>div.image>img{
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+    margin: 18px 0;
+}
+
+div.license>div.license-container>div.copyright{
+    width: 100%;
+    height: 92px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(205, 204, 206, 0.274);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #767891;
+}
+

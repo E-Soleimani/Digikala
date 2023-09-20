@@ -1,0 +1,139 @@
+div.first-suggestion {
+  width: 100%;
+  height: 400px;
+  margin-top: 45px;
+}
+
+div.first-suggestion > div.suggestion-description {
+  width: 70%;
+  height: 15%;
+  margin: 0 auto;
+  text-align: center;
+}
+div.first-suggestion > div.suggestion-description > p {
+  font-family: yekan;
+  font-size: 25px;
+  color: #272727;
+  margin: auto;
+  margin-top: 4px;
+}
+
+div.first-suggestion > div.suggestion-container {
+  width: 70%;
+  height: 85%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid rgb(231, 228, 228);
+  border-radius: 18px;
+  box-sizing: border-box;
+}
+
+div.first-suggestion > div.suggestion-container div.crad {
+  display: inline-block;
+  width: 182px;
+  height: 156px;
+  padding-top: 12px;
+  padding-left: 2px;
+  border-right: 1px solid rgb(231, 228, 228);
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+
+div.first-suggestion > div.suggestion-container div.crad:nth-of-type(1) {
+  border-right: unset;
+}
+
+div.first-suggestion > div.suggestion-container div.image {
+  width: 98px;
+  height: 98px;
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+div.first-suggestion > div.suggestion-container img {
+  width: 65px;
+  margin-top: 16px;
+}
+
+div.first-suggestion > div.suggestion-container p {
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: normal;
+  color: #363636;
+  margin: 16px auto;
+}
+
+/* second & third suggestion (duos) */
+
+div.duos-suggestion{
+  width: 100%;
+  height: 452px;
+  margin-top: 45px;
+}
+
+div.duos-suggestion hr{
+  color:rgba(255, 247, 247, 0.384);
+}
+
+div.duos-suggestion>div.suggestion-container{
+  width: 70%;
+  height: 450px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(180, 178, 178, 0.678);
+  border-radius: 18px;
+}
+
+div.duos-suggestion>div.suggestion-container>div.column{
+  width: 24%;
+  height: 447px;
+  display: inline-block;
+  margin-right:-4px ;
+}
+
+div.duos-suggestion>div.suggestion-container>div.column>div.description{
+  width: 100%;
+  height: 15%;
+  font-family: yekan;
+  text-align: right;
+  color: rgb(53, 52, 52);
+  font-size: 12px;
+  margin-right: 6px;
+  margin-top: 6px;
+  
+}
+
+div.duos-suggestion>div.suggestion-container>div.column>div.description>p{
+  margin:8px 0px;
+  color: #363636;
+}
+
+:is(div.duos-suggestion>div.suggestion-container>div.column) :is(div.first-row ,div.second-row){
+  width: 100%;
+  height: 38%;
+}
+
+div.duos-suggestion>div.suggestion-container>div.column div.card{
+  width: 142px;
+  height: 146px;
+  display: inline-block;
+}
+
+
+div.duos-suggestion>div.suggestion-container>div.column div.image img{
+  width: 126px;
+  height: 126px;
+  margin: 8px auto;
+}
+
+
+:is(div.duos-suggestion>div.suggestion-container>div.column) :is(span,svg){
+  margin: 0 8px 0 0 ;
+  font-family: yekan;
+  font-size: 16px;
+  color: #2DC4D7;
+}
+/* end second & third suggestion (duos) */
+

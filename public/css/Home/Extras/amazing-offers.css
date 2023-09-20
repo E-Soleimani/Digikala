@@ -1,0 +1,101 @@
+div.amazing-offers{
+    width: 100%;
+    height: 360px;
+    padding: 8px 0px;
+    box-sizing: border-box;
+}
+div.amazing-offers>div.shopOffers{
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    padding: 18px 2px;
+    background-color: #EF3B50;
+    border-radius: 18px;
+}
+div.amazing-offers>div.shopOffers a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+div.amazing-offers>div.shopOffers img{
+    width:80%;
+    height: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+div.amazing-offers>div.shopOffers div.shopchild1{
+    width: 100%;
+    direction: ltr;
+    margin-bottom: 20px;
+    position: relative;
+    height: 121px;
+}
+div.amazing-offers>div.shopOffers div.shopchild1>span{
+    display: inline-block;
+    font-size: 12px;
+    font-family: Yekan;
+    color: #565761;
+    font-weight: bold;
+    position: absolute;
+    right:50px;
+}
+div.amazing-offers>div.shopOffers div.shopchild1>span.shop1{
+    width: 70%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #3F4064;
+    position: absolute;
+    right:40px;
+    
+}
+div.amazing-offers>div.shopOffers div.shopchild1>span.shop2{
+    width: 23%;
+    background-color: #EF3B50;
+    font-weight: normal;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 136px;
+}
+div.amazing-offers>div.shopOffers div.shopchild1>del{
+    position: absolute;
+    bottom: 40px;
+    right: 87px;
+}
+div.amazing-offers>div.shopOffers h4{
+    font-size: 14px;
+    font-family: Yekan;
+    color: #a8a5a5;
+    font-weight: normal;
+    
+}
+
+
+div.amazing-offers div.banner{
+    background-color: #EF3B50;
+    margin-bottom: 40px;
+    text-align: center;
+
+} 
+
+
+div.amazing-offers div.banner p{
+    color: whitesmoke;
+    font-family: yekan;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 34px;
+    margin-left: 27px;
+}
+

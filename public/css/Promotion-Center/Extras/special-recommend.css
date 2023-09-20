@@ -1,0 +1,238 @@
+div.specialrecommend{
+    width: 100%;
+    height: 480px;
+    margin-top: 60px;
+}
+
+div.specialrecommend>div.specialrecommend-container{
+    width: 86%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.headtitle{
+    width: 100%;
+    height: 12%;
+    text-align: center;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.headtitle>p{
+   font-family: yekan;
+   font-size: 18px;
+   line-height: 40px;
+   
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters{
+    width: 100%;
+    height: 88%;
+}
+
+
+/* first row */
+div.specialrecommend>div.specialrecommend-container>div.posters>div.first-row{
+    width: inherit;
+    height: 40%;
+    text-align: center;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.first-row>div.banner{
+    width: 49.8%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 18px;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.first-row>div.banner>a>div.description{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    top: calc(50% - 120px / 2);
+    right: 12px;
+    text-align: right;
+    line-height: 40px;
+    font-family: yekan;
+}
+
+div.posters>div.first-row>div.banner>a>div.description>span{
+    font-size: 12px;
+    color: #767790;
+}
+
+div.posters>div.first-row>div.banner>a>div.description>p{
+    font-size: 18px;
+    color: #23254e;
+}
+
+div.posters>div.first-row>div.banner>a>div.description>div.discount>span{
+    background-color: #19bfd3;
+    font-size: 12px;
+    border-radius: 14px 1px 14px 14px;
+    padding: 6px;
+    color: white;
+}
+
+div.posters>div.first-row>div.banner>a>div.products{
+    width: 308px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+}
+
+div.posters>div.first-row>div.banner>a>div.products>div.image{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    line-height: 74px;
+    margin: 0 2px;
+
+}
+
+div.posters>div.first-row>div.banner>a>div.products>div.image>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+}   
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.first-row>div.banner:nth-of-type(1){
+    background-image: linear-gradient(to right,#f1f0f1 ,#f6eeef,#faedee,#ffebed );
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.first-row>div.banner:nth-of-type(1) div.discount>span{
+    background-color: #ef394e;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.first-row>div.banner:nth-of-type(2){
+    background-image: linear-gradient(to right,#eff1f2 ,#e9f4f7,#e3f7fb,#defaff );
+}
+/* end first row  */
+
+
+/* second row */
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row{
+    width: inherit;
+    height: 60%; margin-top: 40px;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 18px;
+    background-image: linear-gradient(to bottom,#ffbec6,#ffcfd5,#ffe0e4,#fff1f3);
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.description{
+    width: 50%;
+    height: inherit;
+    font-family: yekan;
+    display: inline-block;
+    vertical-align: top;
+    
+}               
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.description :is(p,span,svg){
+    padding-right: 12px;
+    line-height: 50px;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.description>p:nth-of-type(1){
+    color: #ef394e;
+    font-size: 18px;
+    padding-top: 32px;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.description>p:nth-of-type(2){
+    color: #080a38;
+    position: relative;
+    bottom: 16px;
+    font-size: 12px;
+
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.description>p:nth-of-type(3){
+    width: 61px;
+    height: 28px;
+    background-color: #ef394e;
+    border-radius: 14px 1px 14px 14px;
+    color: white;
+    line-height: 28px;
+    position: relative;
+    right: 12px;
+    bottom: 18px;
+    text-align: center;
+    padding: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.description>a>span{
+    color: #ef394e;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.products{
+    width: 49.6%;
+    height: 98%;
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: white;
+}
+
+div.specialrecommend>div.specialrecommend-container>div.posters>div.second-row>div.banner>div.products>div.column{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.card{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.card>a>div.image{
+    width: 150px;
+    height: 216px;
+    position: relative;
+    top: calc(50% - 190px / 2);
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.card>a>div.image>img{
+    width: 196px;
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.row{
+    width: 100%;
+    height: 49%;
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.row>div.card>a>div.image{
+    width: 122px;
+    height: 108px;
+    display: inline-block;
+    line-height: 200px;
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.row>div.card>a>div.image>img{
+    width: 90px;
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.card:nth-of-type(1){
+    border-left: 1px solid rgba(185, 183, 183, 0.486);
+}
+
+div.posters>div.second-row>div.banner>div.products>div.column>div.row:nth-of-type(1){
+    border-bottom: 1px solid rgba(185, 183, 183, 0.486);
+}
+

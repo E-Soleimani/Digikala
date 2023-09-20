@@ -1,0 +1,450 @@
+header>div.bottom_header>div.top_bottom_header{
+    width: inherit;
+    height: 60px;
+    
+}
+
+header>div.bottom_header>div.top_bottom_header>div.logo{
+    width: 12%;
+    height: inherit;
+    text-align: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.logo>a>svg{
+    margin-top: 15px;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.search{
+    display: inline-block;
+    width: 70%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    height: inherit;
+    vertical-align: top;
+    margin-right: -4px;
+    padding-top: 10px;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.search>input[type=text]{
+    width:45% ;
+    height: 45px;
+    border: unset;
+    outline: unset;
+    padding-right: 20px;
+    font-family: Yekan;
+    border-radius: 5px;
+    background-color: rgb(236, 235, 235);
+    transition: 300ms;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.search>input[type=text]:focus{
+    background-color: #929292;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.search>input[type=text]:focus::placeholder{
+    color: white;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.login{
+    width: 18%;
+    display: inline-block;
+    height: inherit;
+    margin-right: -4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.login svg{
+    vertical-align: middle;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.login>a{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Yekan;
+    text-decoration: none;
+    color: #3f4064;
+    line-height: 40px;
+    font-size: 11px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.login>a:nth-of-type(2){
+    border: unset;
+    width: 60px;
+}
+
+header>div.bottom_header>div.top_bottom_header>div.login>a>span{
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 3px;
+    transform: rotate(180deg);
+}
+
+header>div.bottom_header>div.bottom_bottom_header{
+    width: inherit;
+    height: 50px;
+    position: relative;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav{
+    width: 82%;
+    height: inherit;
+    display: inline-block;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav svg{
+    vertical-align: middle;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul{
+    width:88.5%;
+    height: inherit;
+    margin: 0 auto;
+    list-style: none;
+    
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 0 10px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 12px;
+    color: #6b6a6a;
+    
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(1)>a{
+    font-size: 14px;
+    color: #161616;
+   
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li>a>svg{
+    margin: unset;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>div.animation {
+    height: 2px;
+    width: 0px;
+    background-color: rgb(231, 64, 64);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 6;
+    transition: 300ms;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(1):hover ~ .animation {
+  width: 122px;
+  right: 96px;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(2):hover ~ .animation {
+  width: 88px;
+  right: 237px;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(3):hover ~ .animation {
+  width: 118px;
+  right: 339px;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(4):hover ~ .animation {
+  width: 150px;
+  right: 469px;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(5):hover ~ .animation {
+  width: 96px;
+  right: 639px;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(6):hover ~ .animation {
+  width: 65px;
+  right: 756px;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:nth-of-type(7):hover ~ .animation {
+  width: 120px;
+  right: 846px;
+}
+
+
+
+
+
+/* submenu */
+header>div.bottom_header>div.bottom_bottom_header>nav div.submenu{
+    width: 87vw;
+    height: 625px;
+    position: absolute;
+    font-family: yekan;
+    overflow: hidden;
+    background-color: rgb(245, 242, 242);
+    border: 1px solid #6b6a6a3d;
+    border-radius: 6px;
+    display: none;
+    z-index: 6;
+    top: 94%;
+} 
+
+header>div.bottom_header>div.bottom_bottom_header>nav>ul>li:hover>div.submenu{
+    display: block;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav div.submenu>div.rightmenu{
+    width: 12%;
+    height: inherit;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav div.submenu>div.rightmenu>nav{
+    width: 100%;
+    height: inherit;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>nav div.submenu>div.rightmenu>nav>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    overflow: hidden;
+}
+
+
+header>div.bottom_header>div.bottom_bottom_header>nav div.submenu>div.rightmenu>nav>ul>li{
+    width: 100%;
+    height: 8%;
+}
+
+div.bottom_bottom_header>nav div.submenu>div.rightmenu>nav>ul>li>a{
+    width: inherit;
+    height: 100%;
+    font-size: 12px;
+    color: #444343;
+    display: block;
+    line-height: 28px;
+    padding-right: 12px;
+    padding-top: 22px;
+}
+
+div.bottom_bottom_header>nav div.submenu>div.rightmenu>nav>ul>li>a:hover{
+    color: red;
+    background-color: #a3a0a01f;
+}
+
+nav div.submenu>div.rightmenu>nav>ul>li>div.sub-submenu{
+    width: 88%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+nav div.submenu>div.rightmenu>nav>ul>li>div.sub-submenu>div.title{
+    width: 80%;
+    height: 8%;
+}
+
+nav div.submenu>div.rightmenu>nav>ul>li>div.sub-submenu>div.title>a :is(span,svg){
+    font-size: 12px;
+    color: #504f4f;
+}
+
+nav div.submenu>div.rightmenu>nav>ul>li>div.sub-submenu>div.products{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+nav div.submenu>div.rightmenu>nav>ul>li>div.sub-submenu>div.products>div.column{
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    margin-top: 25px;
+}
+
+div.sub-submenu>div.products>div.column>ul{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    overflow: hidden;
+}
+
+div.sub-submenu>div.products>div.column>ul>li{
+    width: 100%;
+    height: 7%;
+}
+
+div.sub-submenu>div.products>div.column>ul>li>a{
+    font-size: 12.8px;
+    color: #504f4f;
+    display: block;
+}
+
+div.sub-submenu>div.products>div.column>ul>li>a:hover{
+    color: red;
+}
+
+div.sub-submenu>div.products>div.column>ul>li>a>h4{
+    font-size: 16px;
+    border-right: 2px solid red;
+    padding-right: 6px;
+}
+
+div.bottom_bottom_header>nav div.submenu>div.rightmenu>nav>ul>li:hover>div.sub-submenu{
+    display: block;
+}
+
+/* end submenu */
+
+
+/* location modal */
+
+header>div.bottom_header>div.bottom_bottom_header>div.location{
+    width: 12%;
+    height: inherit;
+    display: inline-block;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>div.location div.closedlocation{
+    width: 100%;
+    height: inherit;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>div.location div.closedlocation>span{
+    font-family: yekan;
+    font-size: 12px;
+    margin: 0;
+    color: #48496b;
+    cursor: pointer;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>div.location div.showedlocation{
+    width: 465px;
+    height: 600px;
+    position: fixed;
+    z-index: 60;
+    background-color: white;
+    left: calc(50% - 465px / 2);
+    bottom: 210px;
+    border: 1px solid #6b6a6a63;
+    border-radius: 8px;
+    display: none;
+}
+
+header>div.bottom_header>div.bottom_bottom_header>div.location div.showedlocation>div.head{
+    width: 100%;
+    height:12%;
+    border-bottom: 1px solid #92929238;
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.head>div.title{
+    width: 70%;
+    height: inherit;
+    font-family: yekan;
+    color: #070937;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    right: 16px;
+    
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.head>label[for="close-location"]>div.collaps{
+    width: 26%;
+    height: inherit;
+    display: inline-block;
+   
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.head>label[for="close-location"]>div.collaps>p{
+    margin: unset;
+    position: relative;
+    right: 100px;
+    top: 16px;
+    font-size: 36px;
+    cursor: pointer;  
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities{
+    width: 100%;
+    height: 88%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities>ul{
+    width: inherit;
+    height: 100%;
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities>ul>li:nth-of-type(1){
+    font-family: yekan;
+    color: #22c1d4;
+    border-bottom: unset;   
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities>ul>li:nth-of-type(1)>span{
+    margin: 12px 0 0 0;
+    cursor: pointer;
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities>ul>li{
+    width: 100%;
+    height: 10%;
+    list-style-type: none;
+    padding: 12px 12px 0 0;
+    border-bottom: 1px solid #92929238;
+    position: relative;
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities>ul>li>a{
+    display: inline-block;
+    font-family: yekan;
+    line-height: 36px;
+    color: #3f4064;
+}
+
+div.bottom_bottom_header>div.location div.showedlocation>div.cities>ul>li>a>svg{
+    margin: unset;
+    position: absolute;
+    top: 20px;
+    left: 40px;  
+}
+
+div.location #show-location:checked~div.showedlocation{
+    display: block;
+}
+
+div.location #close-location:checked~div.showedlocation{
+    display: none;
+}
+
+div.location :is(#show-location,#close-location){
+    display: none;
+}
+
+/* end location modal */

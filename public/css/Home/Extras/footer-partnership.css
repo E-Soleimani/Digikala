@@ -1,0 +1,34 @@
+div.partnership{
+    width: 100%;
+    height: 165px;
+    background-color: #f1f2f4;
+}
+
+div.partnership>div.partnership-container{
+    width: 88%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+div.partnership>div.partnership-container>div.row{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+div.partnership>div.partnership-container>div.row>a>div.image{
+    width: 10.8%;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid rgba(212, 216, 216, 0.596);
+    border-bottom: 1px solid rgba(212, 216, 216, 0.596);
+}
+
+div.partnership>div.partnership-container>div.row>a>div.image>svg{
+    margin: 16px 0 0 0;
+}
+
+div.partnership>div.partnership-container>div.row>a:nth-of-type(9) div.image{
+    border-left: none;
+}

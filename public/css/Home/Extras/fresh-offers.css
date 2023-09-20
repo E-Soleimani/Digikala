@@ -1,0 +1,102 @@
+div.freshoffers{
+    width: 100%;
+    height: 116px;
+    text-align: center;
+    margin-top: 8px;
+}
+div.freshoffers>a{
+    display: inline-block;
+    width: 72%;
+    height: inherit;
+}
+div.freshoffers>a>div.freshoffers-container{
+    width: 100%;
+    height: inherit;
+    background-color: #F1F2F4;
+    position: relative;
+    border-radius: 16px;
+    
+}
+
+div.freshoffers-container>div.description{
+    text-align: right;
+}
+
+:is(div.freshoffers-container>div.description) .image,svg,p,span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: calc(112px /4);
+    margin-right: 21px;   
+    
+}
+
+div.freshoffers-container>div.description>p{
+    font-family: yekan;
+    background-color: rgb(4, 165, 4);
+    width: 112px;
+    height: 32px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 25px;
+    
+    
+}
+
+div.freshoffers-container>div.description>p:nth-of-type(2){
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 41px / 2);
+    background-color: white;
+    color: rgb(4, 165, 4);
+    margin-top: 0px;
+    width: 142px;
+    height: 48px;
+    line-height: 50px;
+    font-size: 12px;
+
+}
+
+div.freshoffers-container>div.description>svg:nth-of-type(2){
+    position: absolute;
+    left:27px;
+    top: calc(50% - 67px / 2);
+}
+
+div.freshoffers>a>div.freshoffers-container>div.freshproducts{
+    width: 512px;
+    height: 74px;
+    position: absolute;
+    top: calc(50% - 58px / 2);
+    left: 168px;
+}
+
+div.freshoffers>a>div.freshoffers-container>div.freshproducts>div.product{
+    display: inline-block;
+    width: 81px;
+    height: 81px;
+    
+}
+
+
+
+div.freshoffers>a>div.freshoffers-container>div.freshproducts>div.product>img{
+    width: 63px;
+    height:63px;
+    border-radius: 50%;
+    
+}
+
+div.freshoffers>a>div.freshoffers-container>div.freshproducts>div.product>div.discount{
+    width: 36px;
+    height:21px;
+    background-color: red;
+    color: whitesmoke;
+    font-family: yekan;
+    border-radius: 21px;
+    line-height: 23px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 8px;
+    
+}

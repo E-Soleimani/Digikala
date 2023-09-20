@@ -1,0 +1,71 @@
+div.digiclub{
+    width: 100%;
+    height: 98px;
+    margin-top: 18px;
+}
+
+div.digiclub>div.digiclub-container{
+    width: 70%;
+    height: inherit;
+    background-image: linear-gradient(to left,#007295,#35A6C8);
+    margin: 0 auto;
+    font-family: yekan;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+div.digiclub>div.digiclub-container>span.svg{
+    width: 29%;
+    height: 70%;
+}
+
+div.digiclub>div.digiclub-container>span.svg svg{
+    margin: 0;
+}
+
+div.digiclub>div.digiclub-container>a>span.luckyspinner{
+    width: 23%;
+    height: 70%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+
+div.digiclub>div.digiclub-container>a>span.missions{
+    width: 22%;
+    height: 70%;
+    background-color: white;
+}
+
+div.digiclub>div.digiclub-container>a>span.rewards{
+    width: 22%;
+    height: 70%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+    
+}
+
+:is(div.digiclub>div.digiclub-container) :is(.luckyspinner,.missions,.rewards){
+    margin: auto 0 ;
+    position: relative;
+    overflow: hidden;
+}
+
+div.digiclub>div.digiclub-container img{
+    width:172px;
+    height: 63px;
+    vertical-align: middle;
+    position: absolute;
+    left: 2px;
+    bottom: calc(50% - 63px / 2);
+    object-fit: cover;
+
+}
+
+:is(div.digiclub>div.digiclub-container>a>span) :is(svg,span) {
+    margin-right: 8px;
+    color: #050505;
+    
+}
+

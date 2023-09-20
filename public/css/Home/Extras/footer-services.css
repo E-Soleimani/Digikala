@@ -1,0 +1,60 @@
+div.services{
+    width: 88%;
+    height: 274px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: yekan;
+}
+
+div.services>div.card{
+    width: 24%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    list-style: none;
+}
+
+div.services>div.card h4{
+    color: #2a2b35d2;
+    padding-bottom: 8px;
+}
+
+div.services>div.card li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #767790;
+}
+
+div.services>div.card>div.contact>h4:nth-of-type(2){
+    margin:27px 0 16px 0;
+}
+
+input[type=email]{
+    width: 68%;
+    height: 47px;
+    background-color: #afb2b62d;
+    border: 1px solid rgba(180, 178, 178, 0.164);
+    border-radius: 8px;
+    padding-right: 18px;
+    vertical-align: top;
+}
+
+input[type=email]::placeholder{
+    font-family: yekan;
+    font-size: 16px;
+    color: #8a8a91;   
+}
+
+div.services button{
+    width: 16%;
+    height: 49px;
+    font-size: 16px;
+    font-family: yekan;
+    background-color: #e1e0e6;
+    color: white;
+    border: 1px solid rgba(180, 178, 178, 0.164);
+    border-radius: 8px;
+    cursor: pointer;
+}

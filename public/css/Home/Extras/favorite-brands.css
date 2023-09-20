@@ -1,0 +1,59 @@
+div.favoritebrands {
+  width: 100%;
+  height: 265px;
+  padding: 4px;
+  box-sizing: border-box;
+  margin-top: 36px;
+
+}
+div.favoritebrands>div.parentBrands {
+  width: 70%;
+  height: 234px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  z-index: 1;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.favoritebrands .swiper-wrapper {
+  height: 160px;
+  margin-top: 8px;
+}
+
+div.favoritebrands .swiper-wrapper .swiper-slide {
+  border-left: 2px solid whitesmoke;
+}
+
+div.favoritebrands>div.parentBrands>div.brands>div.description {
+  margin-top: 12px;
+}
+
+div.favoritebrands>div.parentBrands>div.brands>div.description>h3{
+  font-family: yekan;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
